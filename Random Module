@@ -1,0 +1,26 @@
+
+import random
+
+random_int = random.randint(1,10)
+print(random_int)
+
+------------------------------------------------------------------------
+
+import my_module
+
+print(my_module.pi)
+
+
+------------------------------------------------------------------------
+
+random_float = random.random()
+               ^^^^^^^^^^^^^^
+                0.00 - 1.00
+
+in order to make 0.00 - 5.00 
+random_float = random.random() * 5
+
+------------------------------------------------------------------------
+
+love_score = random.randint(1,100)
+print(f"your love score is {love_score}")
