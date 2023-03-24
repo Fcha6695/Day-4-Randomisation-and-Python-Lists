@@ -1,0 +1,48 @@
+
+states = ["Deleware", "Pennsylvania", "New York"]
+
+----------------------------------------------------------------------------
+PRINT IN REGULAR ORDER
+
+#Order is not lost
+states = ["Deleware", "Pennsylvania", "New York"]
+print(states[0])
+# This will show Deleware
+
+----------------------------------------------------------------------------
+PRINT IN REVERSE ORDER
+
+#Order is not lost
+states = ["Deleware", "Pennsylvania", "New York"]
+print(states[-1])
+# This will show New York
+
+----------------------------------------------------------------------------
+CHANGE NAME
+
+#Order is not lost
+states = ["Deleware", "Pennsylvania", "New York"]
+states[1] = "peensylvania"
+
+print(states)
+
+#this changes the name of pennsylavania to what you want 
+
+----------------------------------------------------------------------------
+APPEND
+
+#Order is not lost
+states = ["Deleware", "Pennsylvania", "New York"]
+states[1] = "peensylvania"
+states.append("SmellyTown")
+print(states)
+
+#This adds something to the end of the list
+
+----------------------------------------------------------------------------
+EXTEND
+
+states = ["Deleware", "Pennsylvania", "New York"]
+states[1] = "peensylvania"
+states.extend(["Yessir", "smellercity", "perhapsyes"])
+print(states)
